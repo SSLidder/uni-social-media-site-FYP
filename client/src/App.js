@@ -1,6 +1,7 @@
  import React from "react";
  import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
  import memories from './images/memories.png'
+ import books from './images/books.jpeg'
  import Posts from "./components/Posts/Posts";
  import Form from "./components/Form/Form";
  import useStyles from "./styles"
@@ -19,8 +20,8 @@
     return (
         <Container maxWidth="lg">
             <AppBar className={classes.appBar} position="static" color="inherit">
-                <Typography className={classes.heading} variant="h2" align="center"> Memories </Typography>    
-                <img className={classes.image} src = {memories} alt="memories" height="60" />
+                <Typography className={classes.heading} variant="h2" align="center"> Univeristy Social Media </Typography>    
+                <img className={classes.image} src = {books} alt="books" height="60" />
             </AppBar>
             <Grow in> 
                 <Container>
